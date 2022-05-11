@@ -1,7 +1,7 @@
 
 *- Calculo de indicor de Desocupación
 
-gen DS = .
+		gen DS = .
 			
 			replace DS = 1 if p6351 == 1
 

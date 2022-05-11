@@ -1,9 +1,9 @@
 
 *- Calculo de indicador de Ocupación
 
-gen OC = .
+		gen OC = .
 			
-		replace OC = 1 if p6240 == 1
+			replace OC = 1 if p6240 == 1
 			replace OC = 1 if p6250 == 1
 			replace OC = 1 if p6260 == 1
 			replace OC = 1 if p6270 == 1

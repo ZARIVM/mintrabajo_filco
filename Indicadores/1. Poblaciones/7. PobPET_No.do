@@ -1,7 +1,4 @@
-
-
-
-*- Poblacion en edad de Trabajar (PET) -*
+*- Poblacion en NO edad de Trabajar (PET) -*
 			
 		gen PET_No = .
 		
