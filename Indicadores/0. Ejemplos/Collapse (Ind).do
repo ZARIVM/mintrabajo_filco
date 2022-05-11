@@ -61,7 +61,7 @@ use "F:\OneDrive - Universidad de La Salle\1. Observatorio ML\1. Bases de Datos\
 		label values PET PET
 */
 	
-	*- ESTE DEBERIA SER LAS LINEAS PARA LA CONSULTA -*
+	*- ESTE DEBERIA SER LAS LINEAS PARA LA CONSULTA DE LOS DATOS -*
 	
 	collapse (sum) PET OC  [iw=fex_c_2011], by (mes)
 		
