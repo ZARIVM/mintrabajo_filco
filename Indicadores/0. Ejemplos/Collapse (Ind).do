@@ -67,5 +67,7 @@ use "F:\OneDrive - Universidad de La Salle\1. Observatorio ML\1. Bases de Datos\
 		
 	    gen TO = (OC/PET)*100 
 	
-    format TO %8.1f             // Formato para que que (##.#%) Solo un decimal
+   	*- Formato de las variables 
+	
+	format TO %8.1f             // Formato para que que (##.#%) Solo un decimal
 	format OC PET %12.3gc       // En millones
