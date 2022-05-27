@@ -3,10 +3,10 @@
 
 		gen OC = .
 			
-			replace OC = 1 if p6240 == 1
-			replace OC = 1 if p6250 == 1
-			replace OC = 1 if p6260 == 1
-			replace OC = 1 if p6270 == 1
+			replace OC = 1 if p6240 == 1 & PET == 1
+			replace OC = 1 if p6250 == 1 & PET == 1
+			replace OC = 1 if p6260 == 1 & PET == 1
+			replace OC = 1 if p6270 == 1 & PET == 1
 		   
 		label var OC "Personas Ocupadas"
 		label define OC 1"Ocupados"
